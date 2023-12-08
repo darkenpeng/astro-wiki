@@ -48,21 +48,23 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
   ko: {
     '': [
-      { text: "소개글", link: "introduction" },
+      { text: "landing", link: "introduction" },
     ],
-    Rules: [
-      {	text: "규칙", link: "팀-규칙"	},
+    "log": [
+      { text: "231113", link: "231113" },
+      { text: "231115", link: "231115" },
+      { text: "231116", link: "231116" },
+      { text: "231117", link: "231117" },
+      { text: "231120", link: "231120" },
+      { text: "231122", link: "231122" },
+      { text: "231127", link: "231127" },
+      { text: "231128", link: "231128" },
+      { text: "231130", link: "231130" },
+      { text: "231201", link: "231201" },
+      { text: "231204", link: "231204" },
+      { text: "231205", link: "231205" },
+      { text: "231207", link: "231207" },
 
-      {	text: "커밋", link: "커밋-컨벤션"	},
-      {	text: "코드", link: "코드-컨벤션"	},
-    ],
-    "Scrum log": [
-	  { text: "킥오프", link: "킥오프" },
-      { text: "22-12-05", link: "22-12-05" },
-      { text: "22-12-06", link: "22-12-06" },
-      { text: "22-12-07", link: "22-12-07" },
-	  { text: "22-12-08", link: "22-12-08" },
-      { text: "22-12-09", link: "22-12-09" },
     ],
   },
 };
